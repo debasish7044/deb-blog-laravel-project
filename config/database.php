@@ -74,7 +74,6 @@ return [
         'prefix'    => '',
         'strict'    => false,
         'engine'    => null,
-        
     ],
 
         'pgsql' => [
