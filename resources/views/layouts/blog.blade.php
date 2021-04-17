@@ -11,12 +11,12 @@
     </title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/page.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/page.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/style.css') }}" rel="stylesheet">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.png') }}">
-    <link rel="icon" href="{{ asset('img/favicon.png') }}">
+    <link rel="apple-touch-icon" href="{{ secure_asset('img/apple-touch-icon.png') }}">
+    <link rel="icon" href="{{ secure_asset('img/favicon.png') }}">
   </head>
   <body>
 
@@ -28,8 +28,8 @@
         <div class="navbar-left">
           <button class="navbar-toggler" type="button"> &#9776; </button>
              <a class="navbar-brand" href="/">
-              <img class="logo-dark" src="{{ asset('img/logo-dark.png') }}" alt="logo">
-              <img class="logo-light" src="{{ asset('img/logo-light.png') }}" alt="logo">
+              <img class="logo-dark" src="{{ secure_asset('img/logo-dark.png') }}" alt="logo">
+              <img class="logo-light" src="{{ secure_asset('img/logo-light.png') }}" alt="logo">
              </a> 
         </div>
       <div>
@@ -98,7 +98,7 @@
         <div class="row gap-y align-items-center">
 
           <div class="col-4 col-lg-6">
-            <a href="../index.html"><img src="{{ asset('img/logo-dark.png') }}" alt="logo"></a>
+            <a href="../index.html"><img src="{{ secure_asset('img/logo-dark.png') }}" alt="logo"></a>
           </div>
 
           <div class="col-8 col-lg-6 text-right order-lg-last">
@@ -124,8 +124,8 @@
 
 
     <!-- Scripts -->
-    <script src="{{ asset('js/page.min.js') }}"></script>
-    <script src="{{ asset('js/script.js') }}"></script>
+    <script src="{{ secure_asset('js/page.min.js') }}"></script>
+    <script src="{{ secure_asset('js/script.js') }}"></script>
 
   </body>
 </html>
