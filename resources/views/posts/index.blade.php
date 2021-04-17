@@ -30,7 +30,7 @@
               <tbody >
               @foreach ($posts as $post )
               <tr>
-                <td><img src="{{secure_asset($post->image)}}" alt="" style="width: 50px"></td>
+                <td><img src="{{Storage::url($post->image)}}" alt="" style="width: 50px"></td>
                 <td>
                   @if (strlen($post->title) > 30)
                     {{ substr($post->title,0,30) }}..
