@@ -1,5 +1,9 @@
    @extends('layouts.main')
 
+   @section('title')
+     all Users
+   @endsection
+
    @section('content')
 
     <div class="d-flex flex-column align-items-center mb-5">

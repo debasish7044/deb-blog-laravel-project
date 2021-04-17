@@ -1,6 +1,10 @@
 @extends('layouts.main')
 
-   @section('content')
+   @section('title')
+     {{ isset($tag) ? 'Update Tag' : 'Create Tag' }}
+   @endsection
+
+@section('content')
   
   <div class="d-flex flex-column align-items-center" >
   <div class="card" style="width:100%">

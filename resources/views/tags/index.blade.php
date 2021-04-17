@@ -1,4 +1,7 @@
    @extends('layouts.main')
+    @section('title')
+     all Tags
+   @endsection
 
    @section('content')
 

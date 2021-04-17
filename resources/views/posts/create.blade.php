@@ -1,5 +1,7 @@
 @extends('layouts.main')
-
+    @section('title')
+     {{ isset($post) ? 'Update Post' : 'Create Post' }}
+   @endsection
    @section('content')
 
     <div class="d-flex flex-column align-items-center mb-4">
